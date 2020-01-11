@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Display name</title>
+<script src="jquery-1.5.1.min.js"></script>
+<script>
+function disp(){
+	var v1 = $('#txt').val();
+	$(".val1").text(v1);
+	$("#txt").val("");
+}
+</script>
+</head>
+<body>
+<input type="text" id="txt"/>
+<input type="button" value="CLICK" onclick="disp()"/><br>
+<span class="val1"></span>
+</body>
+</html>
