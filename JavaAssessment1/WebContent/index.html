@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+<body>
+<script>
+function myFunction() {
+	  document.getElementById("myDropdown").classList.toggle("show");
+	}
+</script>
+<form action="#" method="get">
+		<table border="1">
+		<tr><td>Athlete Name</td><td><input type="text" name="ename" value="" required/></td></tr>
+		<tr><td>Gender</td><td><input type="radio" name="egender" value="male">Male
+		<input type="radio" name="egender" value="female">Female</td></tr>
+		<tr><td>Category</td>
+	   <td> <select>
+	    <option value="Select">Select</option>
+  		<option value="Running">Running</option>
+  		<option value="High Jump">High Jump</option>
+  		<option value="Hurdles">Hurdles</option>
+  		<option value="Relay">Relay</option>
+  		<option value="Javelin Throw">Javelin Throw</option>
+  		<option value="Shot put">Shot put</option>
+</select></td></tr>
+		<tr><td>Email</td><td> <input type="text" name="email" value="" required/></td></tr>
+		<tr><td>Mobile</td><td> <input type="number" name="emobile" value="" required maxlength="10"/></td></tr>
+		<tr><td><input type="submit" value="ADD"><input type="submit" value="CANCEL"></td>
+		<td><a href="Home.html">Home</a></td></tr>		
+		</table>
+	</form>
+</body>
+</html>
